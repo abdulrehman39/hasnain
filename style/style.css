@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Roboto+Mono&family=Roboto:wght@400;500&family=Sono:wght@400;800&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+*{
+      font-family: 'Roboto', sans-serif;
+    
+}
+
+  .portfolioColor{
+    color: #d35400;
+    transition: background-color 0.1s linear 0.3s;
+    transition: border-radius 0.1s linear 0.2s;
+
+  }
+
+  .portfolioColor:hover{
+    background-color: #bca8c4;
+    border-radius: 10px;
+  }
+
+.navLinkColor{
+    color: #9b59b6;
+}
+
+.navLinkColor:hover{
+    border-bottom: 3px solid violet;
+}
+
+.nameColor{
+    color: #9b59b6;
+}
+
+
+.electronics{
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.electronics:hover{
+    color:purple;
+    font-weight: bold;
+}
+
+
+
+.electronicsFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutPara{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.myPic{
+    transition: box-shadow 0.4s linear 0.3s;
+    transition: padding 0.3s linear 0.4s;
+}
+.myPic:hover{
+    box-shadow: -10px -10px 20px violet;
+    padding: 2px 2px;
+}
+
+.DecorationNone{
+    text-decoration: none;
+}
+.CourseLink{
+    transition: width 0.5s linear 0.2s;
+}
+.CourseLink:hover{
+    width: 100%;
+}
+
+.CourseLink02{
+    transition: width 0.5s linear 0.2s;
+}
+.CourseLink02:hover{
+    width: 100%;
+}
+
+.CertificateBackground
+{
+    background-color: #f1f2f6;
+    border: 2px inset violet;
+    border-radius: 5px;
+}
+
+.ProjectDesign{
+    border: 7px groove;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+
+.ProjectPicture{
+    transition: width 0.3s linear 0.2s;
+}
+.ProjectPicture:hover{
+    width: 55%;
+}
+
+
+.email{
+    text-decoration: none;
+    font-size: 15px;
+    color: brown;
+}
+
+.email:hover{
+    text-decoration: underline;
+}
+
+.ContactParagraph{
+    line-height: 2;
+}
+
